@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2019, 12:39:27 PM
+    Author     : Admin
+*/
+
+*{
+            margin: 0;
+            padding: 0;
+            font-family: tahoma, Arial, sans-serif, 'lucid grand';
+            background: url("http://hinhnenpowerpointdep.com/uploads/images/25-bieu-tuong-adidas-day-mau-sac-day-an-tuong-1487830731-2.jpg");
+            color: white;
+        }
+        html{
+            font-size: 14px;
+            margin: 15px;
+            padding-right: 10px;
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+        }
+        img{
+            height: auto;
+            max-width: 100%;
+        }
+        
+        
+        .navbar-converse{
+        
+            padding: 5px 0;
+            text-align: center;
+            background-color: black;
+            background-image: none;
+        }

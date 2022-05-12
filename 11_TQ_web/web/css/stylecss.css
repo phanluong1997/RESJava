@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2019, 2:07:49 PM
+    Author     : Admin
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body
+{
+    width: 1125px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: red;
+    color: yellow;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+   transition:  padding 2s;
+}
+@keyframes xoay{
+    0%{}
+    50%{tranform: rotateY(360deg)}
+    100%{}
+}
+a:hover{
+    background-color: white;
+    padding: 10px 15px;
+    animation: xoay 5s;
+}
+a:active{
+    background-color: violet;
+}
+table{
+    margin: 0;
+    
+}
+td{
+    padding: 5px;
+}
